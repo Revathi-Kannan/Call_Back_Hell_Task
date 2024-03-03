@@ -1,0 +1,32 @@
+.Countdown{
+justify-content: center;
+font-weight: bold;
+text-align: center;
+margin-top: 50px;
+font-size: 50px;
+
+}
+
+.message{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    color: brown;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes slide{
+
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
